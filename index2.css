@@ -1,0 +1,85 @@
+        *{
+    margin: 0;
+}
+h1{
+    font-family: "Roboto";
+    color: white;
+}
+.card{
+    background-color: black;
+    padding-left: 25px;
+    height: 100vh;
+    width: 70vw;
+}
+
+.apj-div{
+    background-color: rgb(212, 231, 231);
+    border-radius: 15px;
+    height: 18%;
+    display: flex;
+    width: 92%;
+    font-weight:bold;
+}
+
+.chethan-div{
+    border-radius: 15px;
+    height: 18%;
+    display: flex;
+    width: 92%;
+    font-weight:bold;
+    color: white;
+    margin: 40px 0;
+
+}
+.harry-div{
+    border-radius: 15px;
+    height: 18%;
+    display: flex;
+    width: 92%;
+    font-weight:bold;
+}
+
+.img{
+    width: 30%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.inner-div{
+    padding: 10px;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.main-heading{
+    font-family: "Roboto";
+    color: rgb(21, 83, 114);
+}
+.main-heading-w{
+    color: white;
+}
+
+.author{
+    color: white;
+    font-weight: bolder;
+}
+.author-w{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+button{
+    background-color: rgb(43, 127, 196);
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.recommended-books{
+    margin: 20px 0;
+    color: white;
+}
