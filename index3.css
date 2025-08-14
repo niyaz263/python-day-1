@@ -1,0 +1,24 @@
+div{
+    background-color:blanchedalmond;    
+}
+.na{
+    background-color: lightgreen;
+    display: flex;
+}
+.sender{
+    flex-direction: column;
+    text-align: end;
+}
+.reciever{
+    flex-direction: row;
+    text-align: start;
+}
+.bar{
+    background-color: lightblue;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
