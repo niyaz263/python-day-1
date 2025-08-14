@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #0bbdf8;
+}
+
+.traffic-light {
+    width: 100px;
+    background: #333;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px auto;
+    
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    margin: 15px auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: azure;
+    background: #555; /* Off color */
+    transition: background 0.3s ease-in out;
+}
+
+.red.on {
+    background: red;
+    
+}
+
+.yellow.on {
+    background: yellow;
+}
+
+.green.on {
+    background: rgb(8, 199, 8);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover  {
+    background: #d30f0f;
+}
+
